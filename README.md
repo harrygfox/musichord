@@ -1,8 +1,6 @@
 # Musichord MVP
 ### for Team Appiphany
 
-MVP for piano notation app.
-
-<a href="http://harrygfox.github.io/musichord/" target="_blank">MVP</a>
+<a href="http://harrygfox.github.io/musichord/" target="_blank">MVP for piano notation app.</a>
 
 *All dependencies included*
