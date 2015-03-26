@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Musichord - Play</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/piano.css">
+</head>
+<body>
+
+
+<div class="container">
+
+    <img class="logo" src="img/musichordlogo.png" alt="">
+
+    <p class="lead">Play notes on the keyboard to make them appear in the stave. <br> Press the &#x25B6; button to hear what you did!</p>
+
+    <div class="canvas-wrapper">
+        <canvas width="700" height="100"></canvas>
+    </div><!-- /canvas-wrapper -->
+
+    <button class="btn btn-lg" id="play-button">&#x25B6;</button>
+</div><!-- /container -->
+    <div id="content">
+        <div id="content-inner">
+            <div id="piano">
+                <div id="clear" class="help" tabindex="1"> &#8634;</div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- Vendor Javascript files -->
+<!-- NB: All files require jquery -->
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/vexflow/releases/vexflow-min.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/refresh.js"></script>
+
+<!-- Custom JS -->
+<script src="js/piano.js"></script>
+<script src="js/stave.js"></script>
+
+</body>
+</html>

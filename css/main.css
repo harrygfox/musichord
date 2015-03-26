@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+
+html,body{
+  height: 100vh;
+  /*overflow: hidden;*/
+}
+
+body{
+  margin: 0;
+  padding: 20px 25px;
+  background-color: #000;
+  font-family: "helvetica";
+  font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+}
+.canvas-wrapper {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin: 10px auto;
+    background-color: #fff;
+}
+canvas {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.lead{
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+}
+
+.logo{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container{
+  width:80%;
+  margin: 0 auto;
+}
+
+#play-button {
+  font-size: 30px;
+  text-align: center;
+  background-color: #45D836;
+  color: #fff;
+  display: block;
+  margin: 0.4em auto;
+  width: 4em;
+}
+
+#play-button:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 10px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+
+
+
+.btn-lg,
+.btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+.play:hover {
+  cursor: pointer;
+}
