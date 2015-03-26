@@ -1,0 +1,60 @@
+h1,h4{
+  color: #fff;
+}
+.btn-container{
+  width:50%;
+  margin: 0 auto;
+}
+
+.btn {
+  display: block;
+  color: #fff;
+  padding: 6px 10px;
+  margin-bottom: 50px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+
+.btn-lg,
+.btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+.folk{
+  background-color: #F01110;
+}
+
+.blues{
+  background-color: #F5BF26;
+}
+
+.classic{
+  background-color: #45D836;
+}
+
+.rnb{
+  background-color: #B564DE;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+}
